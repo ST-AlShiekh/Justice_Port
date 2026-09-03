@@ -136,7 +136,7 @@ const ranks = [
 },
 
 {
-  person: "اسم الشخص",
+  person: " لا يوجد ",
   rank: "Affairs Supervisor",
   ar: "مشرف الشؤون",
   section: "Justice Academy — Academic Affairs",
@@ -145,7 +145,7 @@ const ranks = [
 },
 
 {
-  person: "اسم الشخص",
+  person: " لا يوجد ",
   rank: "Student Affairs Officer",
   ar: "مسؤول شؤون الطلاب",
   section: "Justice Academy — Academic Affairs",
@@ -154,7 +154,7 @@ const ranks = [
 },
 
 {
-  person: "اسم الشخص",
+  person: " لا يوجد ",
   rank: "Admissions Officer",
   ar: "مسؤول القبول",
   section: "Justice Academy — Academic Affairs",
@@ -184,7 +184,7 @@ const ranks = [
 },
 
 {
-  person: "اسم الشخص",
+  person: " لا يوجد ",
   rank: "Training Supervisor",
   ar: "مشرف التدريب",
   section: "Justice Academy — Training",
@@ -193,7 +193,7 @@ const ranks = [
 },
 
 {
-  person: "اسم الشخص",
+  person: " لا يوجد ",
   rank: "Senior Instructor",
   ar: "مدرب أول",
   section: "Justice Academy — Training",
@@ -202,7 +202,7 @@ const ranks = [
 },
 
 {
-  person: "اسم الشخص",
+  person: " لا يوجد ",
   rank: "Legal Instructor",
   ar: "مدرب قانوني",
   section: "Justice Academy — Training",
