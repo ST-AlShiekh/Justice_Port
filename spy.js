@@ -690,67 +690,30 @@ document.querySelectorAll(".directory-tab").forEach(tab => {
 
 function renderLeadership(){
 
-  const leadership =
-    ranks.filter(
-      rank => rank.status === "official"
-    );
+  // تنضاف تلقائي بعد كل اضافه لا تعدلو شي فيها
+  
+  const leadership = ranks.filter(
+    rank => rank.status === "official" && rank.name
+  );
 
-
-  const grid =
-    $("#leadershipGrid");
-
+  const grid = $("#leadershipGrid");
 
   if(!grid) return;
 
-
-  grid.innerHTML =
-
-    leadership.map(
-      (rank, index) => `
-
-        <article class="leader-card">
-
-          <div class="leader-top">
-
-            <div class="leader-icon">
-              ⚖
-            </div>
-
-
-            <div>
-
-              <small>
-
-                COMMAND
-                ${String(index + 1)
-                  .padStart(2, "0")}
-
-              </small>
-
-
-              <h3>
-
-                ${rank.name}
-
-              </h3>
-
-            </div>
-
-          </div>
-
-
-          <p>
-
-            ${rank.ar}
-            —
-            ${rank.desc}
-
-          </p>
-
-        </article>
-
-      `
-    ).join("");
+  grid.innerHTML = leadership.map((rank, index) => `
+    <article class="leader-card">
+      <div class="leader-top">
+        <div class="leader-icon">⚖</div>
+        <div>
+          <small>COMMAND ${String(index + 1).padStart(2, "0")}</small>
+          <h3>${rank.name}</h3>
+        </div>
+      </div>
+      <p>
+        ${rank.ar} — ${rank.desc}
+      </p>
+    </article>
+  `).join("");
 
 }
 
