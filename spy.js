@@ -523,7 +523,7 @@ function fillFilters(){
     const option = document.createElement("option");
     option.value = section;
     option.textContent = section
-      .replace("Justice Academy — Internal Affairs","الأكاديمية — الشؤون ")
+      .replace("Justice Academy — Academic Affairs","الأكاديمية — الشؤون الأكاديمية")
       .replace("Justice Academy — Training","الأكاديمية — قسم التدريب")
       .replace("Justice Department","وزارة العدل")
       .replace("Attorneys","هيئة المحامين")
